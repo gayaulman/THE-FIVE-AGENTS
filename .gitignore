@@ -21,3 +21,13 @@ Icon
 .idea/
 *.swp
 *.swo
+
+# Secrets / local env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Generated images (Yuval outputs)
+yuval/outputs/*
+!yuval/outputs/.gitkeep
